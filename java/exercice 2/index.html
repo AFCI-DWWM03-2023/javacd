@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="solution">bouton</button>
+    <div class="reponse cache">
+   Contenu principal
+    </div>
+    <ul>
+<li>
+    <button class="interactivelElement">First interactive button</button>
+</li>
+<li>
+    <button class="interactivelElement">Second interactive button</button>
+</li>
+<li>
+    <button class="interactivelElement">Third interactive button</button>
+</li>
+<li>
+    <button>A button but not interactives</button>
+</li>
+
+    </ul>
+    <p id="elementToChange">No button cliked yet!</p>
+    <script>
+var theButtons = document.querySelectorAll('.interactiveElement');
+console.log(theButtons);
+    </script>
+<script src="script.js"></script>
+
+</body>
+</html>

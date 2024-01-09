@@ -1,0 +1,54 @@
+
+    body {
+        background-color: rgb(107, 105, 105);
+    }
+    
+    .container {
+        border: 1px solid black;
+        border-radius: 10px;
+        width: 25%;
+        margin-top: 5%;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    
+    .bg-dark {
+        background-color: black;
+    }
+    
+    .text-white {
+        color: white;
+    }
+    
+    .p-2 {
+        padding: 0.5rem;
+    }
+    
+    .m-2 {
+        margin: 0.5rem;
+    }
+    
+    .form-control {
+        text-align: end;
+        font-size: large;
+    }
+    
+    #recap {
+        font-size: 10px;
+        height: 100px;
+    }
+    
+    .text-lg-start {
+        text-align: start;
+    }
+    
+    .bg-warning {
+        background-color: yellow;
+    }
+    
+    .overflow-auto {
+        overflow: auto;
+    }
+    
